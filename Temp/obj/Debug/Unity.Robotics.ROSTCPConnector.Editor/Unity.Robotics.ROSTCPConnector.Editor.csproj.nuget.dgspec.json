@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Editor.csproj": {}
+  },
+  "projects": {
+    "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Editor.csproj",
+        "projectName": "Unity.Robotics.ROSTCPConnector.Editor",
+        "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Editor.csproj",
+        "packagesPath": "/home/tyler/.nuget/packages/",
+        "outputPath": "/home/tyler/unity-ros/Temp/obj/Debug/Unity.Robotics.ROSTCPConnector.Editor/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tyler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj": {
+                "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj"
+              },
+              "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.csproj": {
+                "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.csproj"
+              },
+              "/home/tyler/unity-ros/UnityEditor.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEditor.UI.csproj"
+              },
+              "/home/tyler/unity-ros/UnityEngine.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj",
+        "projectName": "Unity.Robotics.ROSTCPConnector.MessageGeneration",
+        "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj",
+        "packagesPath": "/home/tyler/.nuget/packages/",
+        "outputPath": "/home/tyler/unity-ros/Temp/obj/Debug/Unity.Robotics.ROSTCPConnector.MessageGeneration/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tyler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/tyler/unity-ros/UnityEditor.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEditor.UI.csproj"
+              },
+              "/home/tyler/unity-ros/UnityEngine.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Messages.csproj",
+        "projectName": "Unity.Robotics.ROSTCPConnector.Messages",
+        "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Messages.csproj",
+        "packagesPath": "/home/tyler/.nuget/packages/",
+        "outputPath": "/home/tyler/unity-ros/Temp/obj/Debug/Unity.Robotics.ROSTCPConnector.Messages/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tyler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj": {
+                "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj"
+              },
+              "/home/tyler/unity-ros/UnityEditor.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEditor.UI.csproj"
+              },
+              "/home/tyler/unity-ros/UnityEngine.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.csproj",
+        "projectName": "Unity.Robotics.ROSTCPConnector",
+        "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.csproj",
+        "packagesPath": "/home/tyler/.nuget/packages/",
+        "outputPath": "/home/tyler/unity-ros/Temp/obj/Debug/Unity.Robotics.ROSTCPConnector/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tyler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj": {
+                "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj"
+              },
+              "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Messages.csproj": {
+                "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Messages.csproj"
+              },
+              "/home/tyler/unity-ros/UnityEditor.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEditor.UI.csproj"
+              },
+              "/home/tyler/unity-ros/UnityEngine.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tyler/unity-ros/UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tyler/unity-ros/UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "/home/tyler/unity-ros/UnityEditor.UI.csproj",
+        "packagesPath": "/home/tyler/.nuget/packages/",
+        "outputPath": "/home/tyler/unity-ros/Temp/obj/Debug/UnityEditor.UI/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tyler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/tyler/unity-ros/UnityEngine.UI.csproj": {
+                "projectPath": "/home/tyler/unity-ros/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tyler/unity-ros/UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tyler/unity-ros/UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "/home/tyler/unity-ros/UnityEngine.UI.csproj",
+        "packagesPath": "/home/tyler/.nuget/packages/",
+        "outputPath": "/home/tyler/unity-ros/Temp/obj/Debug/UnityEngine.UI/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tyler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

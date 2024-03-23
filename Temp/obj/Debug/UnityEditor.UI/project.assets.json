@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "UnityEngine.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnityEngine.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.UI.csproj",
+      "msbuildProject": "UnityEngine.UI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "UnityEngine.UI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/tyler/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/tyler/unity-ros/UnityEditor.UI.csproj",
+      "projectName": "UnityEditor.UI",
+      "projectPath": "/home/tyler/unity-ros/UnityEditor.UI.csproj",
+      "packagesPath": "/home/tyler/.nuget/packages/",
+      "outputPath": "/home/tyler/unity-ros/Temp/obj/Debug/UnityEditor.UI/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/home/tyler/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/home/tyler/unity-ros/UnityEngine.UI.csproj": {
+              "projectPath": "/home/tyler/unity-ros/UnityEngine.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

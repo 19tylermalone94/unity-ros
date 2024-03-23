@@ -1,0 +1,207 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Unity.Robotics.ROSTCPConnector/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Robotics.ROSTCPConnector.MessageGeneration": "1.0.0",
+          "Unity.Robotics.ROSTCPConnector.Messages": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Robotics.ROSTCPConnector.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Robotics.ROSTCPConnector.dll": {}
+        }
+      },
+      "Unity.Robotics.ROSTCPConnector.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Robotics.ROSTCPConnector": "1.0.0",
+          "Unity.Robotics.ROSTCPConnector.MessageGeneration": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Robotics.ROSTCPConnector.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Robotics.ROSTCPConnector.Editor.dll": {}
+        }
+      },
+      "Unity.Robotics.ROSTCPConnector.MessageGeneration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Robotics.ROSTCPConnector.MessageGeneration.dll": {}
+        }
+      },
+      "Unity.Robotics.ROSTCPConnector.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Robotics.ROSTCPConnector.MessageGeneration": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Robotics.ROSTCPConnector.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Robotics.ROSTCPConnector.Messages.dll": {}
+        }
+      },
+      "UnityEditor.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        }
+      },
+      "UnityEngine.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unity.Robotics.ROSTCPConnector/1.0.0": {
+      "type": "project",
+      "path": "Unity.Robotics.ROSTCPConnector.csproj",
+      "msbuildProject": "Unity.Robotics.ROSTCPConnector.csproj"
+    },
+    "Unity.Robotics.ROSTCPConnector.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.Robotics.ROSTCPConnector.Editor.csproj",
+      "msbuildProject": "Unity.Robotics.ROSTCPConnector.Editor.csproj"
+    },
+    "Unity.Robotics.ROSTCPConnector.MessageGeneration/1.0.0": {
+      "type": "project",
+      "path": "Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj",
+      "msbuildProject": "Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj"
+    },
+    "Unity.Robotics.ROSTCPConnector.Messages/1.0.0": {
+      "type": "project",
+      "path": "Unity.Robotics.ROSTCPConnector.Messages.csproj",
+      "msbuildProject": "Unity.Robotics.ROSTCPConnector.Messages.csproj"
+    },
+    "UnityEditor.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.UI.csproj",
+      "msbuildProject": "UnityEditor.UI.csproj"
+    },
+    "UnityEngine.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.UI.csproj",
+      "msbuildProject": "UnityEngine.UI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Unity.Robotics.ROSTCPConnector >= 1.0.0",
+      "Unity.Robotics.ROSTCPConnector.Editor >= 1.0.0",
+      "Unity.Robotics.ROSTCPConnector.MessageGeneration >= 1.0.0",
+      "Unity.Robotics.ROSTCPConnector.Messages >= 1.0.0",
+      "UnityEditor.UI >= 1.0.0",
+      "UnityEngine.UI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/tyler/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/tyler/unity-ros/Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "/home/tyler/unity-ros/Assembly-CSharp.csproj",
+      "packagesPath": "/home/tyler/.nuget/packages/",
+      "outputPath": "/home/tyler/unity-ros/Temp/obj/Debug/Assembly-CSharp/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/home/tyler/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Editor.csproj": {
+              "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Editor.csproj"
+            },
+            "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj": {
+              "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.MessageGeneration.csproj"
+            },
+            "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Messages.csproj": {
+              "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.Messages.csproj"
+            },
+            "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.csproj": {
+              "projectPath": "/home/tyler/unity-ros/Unity.Robotics.ROSTCPConnector.csproj"
+            },
+            "/home/tyler/unity-ros/UnityEditor.UI.csproj": {
+              "projectPath": "/home/tyler/unity-ros/UnityEditor.UI.csproj"
+            },
+            "/home/tyler/unity-ros/UnityEngine.UI.csproj": {
+              "projectPath": "/home/tyler/unity-ros/UnityEngine.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.420/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
