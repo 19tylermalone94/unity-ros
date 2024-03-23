@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/RosMessages/UnityRoboticsDemo/srv/PositionServiceResponse.cs" />
+    <Compile Include="Assets/Scripts/MapLoader.cs" />
     <Compile Include="Assets/RosMessages/UnityRoboticsDemo/srv/ObjectPoseServiceRequest.cs" />
     <Compile Include="Assets/Scripts/RosPublisherExample.cs" />
     <Compile Include="Assets/RosMessages/UnityRoboticsDemo/msg/PosRotMsg.cs" />

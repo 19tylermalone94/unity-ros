@@ -360,6 +360,7 @@
 "Assets/RosMessages/UnityRoboticsDemo/srv/PositionServiceResponse.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/MapClickHandler.cs"
+"Assets/Scripts/MapLoader.cs"
 "Assets/Scripts/RosPublisherExample.cs"
 -langversion:9.0
 
